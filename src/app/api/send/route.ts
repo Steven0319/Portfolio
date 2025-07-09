@@ -9,7 +9,7 @@ export async function POST(req: Request) {
 
     try {
       const response = await resend.emails.send({
-        from: "Acme <onboarding@resend.dev>",
+        from: "Steven <contact@portfolio-steven.netlify.app>",
         to: ["steven.0319@gmail.com"],
         subject: "New message from Steven landing page",
         react: EmailTemplate({
@@ -24,7 +24,6 @@ export async function POST(req: Request) {
     } catch (error) {
       return Response.json({ error: "Failed to send email", details: error });
     }
-
   } catch (error) {
     return Response.json({ error: "Invalid request body", details: error });
   }
