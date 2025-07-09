@@ -1,6 +1,5 @@
 import AboutMe from "@/components/AboutMe";
 import Contact from "@/components/Contact";
-import ContactForm from "@/components/Contact-form";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Introduction from "@/components/Introduction";
