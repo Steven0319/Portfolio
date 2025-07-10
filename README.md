@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Page Portfolio
 
-## Getting Started
+Welcome to my personal portfolio landing page built with Next.js 14, React 18, and TailwindCSS.
 
-First, run the development server:
+## 🚀 Features
+
+- **Next.js 14** for SSR and static generation.
+- **React 18** with hooks and modern features.
+- **TailwindCSS 3.4** for rapid, utility-first styling.
+- **Dark/Light theme toggle** powered by `next-themes`.
+- **TypeScript** strict mode for robust code.
+- **Form validation** using `react-hook-form` with `zod` and `@hookform/resolvers`.
+- **Animations** with `tailwindcss-animate` and `lucide-react` icons.
+- **Carousel/Slider** using `embla-carousel-react`.
+- **Email sending** integrated with `resend` API.
+- **Radix UI components** (`dropdown-menu`, `label`, `progress`, `separator`, `slot`) for accessible UI primitives.
+- Clean code structure and reusable components.
+
+## 🛠 Installation
+
+Clone the repository:
 
 ```bash
-npm run dev
+git clone https://github.com/yourusername/landing-page-portfolio.git
+cd landing-page-portfolio
+
+1.Install dependencies:
+
+npm install
 # or
-yarn dev
+yarn install
+
+
+2.Run development server:
+
+npm install
 # or
-pnpm dev
-# or
-bun dev
-```
+yarn install
+Open http://localhost:3000 in your browser to see the portfolio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3.🎨 Styling
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-TailwindCSS with JIT mode enabled.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-tailwindcss-animate plugin for smooth animations.
 
-## Learn More
+-Custom theme switching with next-themes.
 
-To learn more about Next.js, take a look at the following resources:
+4. 📧 Email Integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Uses resend package to send emails easily from contact forms.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. 🎡 Carousel/Slider
 
-## Deploy on Vercel
+Implemented with embla-carousel-react for smooth touch and mouse interactions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. 📸 Screenshot
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Landing Page Preview](/preview.png)
+
+Developed by Steven 👨‍💻
