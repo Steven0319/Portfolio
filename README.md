@@ -2,6 +2,10 @@
 
 Welcome to my personal portfolio landing page built with Next.js 14, React 18, and TailwindCSS.
 
+## 📸 Preview
+
+![screenshot](public/preview.png) 
+
 ## 🚀 Features
 
 - **Next.js 14** for SSR and static generation.
@@ -15,6 +19,8 @@ Welcome to my personal portfolio landing page built with Next.js 14, React 18, a
 - **Email sending** integrated with `resend` API.
 - **Radix UI components** (`dropdown-menu`, `label`, `progress`, `separator`, `slot`) for accessible UI primitives.
 - Clean code structure and reusable components.
+
+
 
 ## 🛠 Installation
 
@@ -53,9 +59,5 @@ Uses resend package to send emails easily from contact forms.
 5. 🎡 Carousel/Slider
 
 Implemented with embla-carousel-react for smooth touch and mouse interactions.
-
-6. 📸 Screenshot
-
-![Landing Page Preview](/preview.png)
 
 Developed by Steven 👨‍💻

@@ -115,6 +115,12 @@ export const dataPortfolio = [
     image: "/image-7.jpg",
     urlGithub: "https://github.com/Steven0319/Landing-Page-Banking.git",
   },
+  {
+    id: 8,
+    title: "Real Estate Page",
+    image: "/image-8.jpg",
+    urlGithub: "https://github.com/Steven0319/Real-Estate-Page.git",
+  },
 ];
 
 // ✅ EXPERIENCE & SKILLS
