@@ -24,7 +24,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline mt-2"
               >
-                Send Message
+                {data.cta}
               </Link>
             </div>
           ))}

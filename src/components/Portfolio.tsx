@@ -31,6 +31,17 @@ const Portfolio = () => {
               >
                 GitHub
               </Link>
+
+              {data.urlDemo && (
+                <Link
+                  className={buttonVariants({ variant: "outline" })}
+                  href={data.urlDemo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </Link>
+              )}
             </div>
           </div>
         ))}

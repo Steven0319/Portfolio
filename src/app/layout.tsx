@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import {Urbanist} from "next/font/google";
+import { Urbanist } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import ParticlesBackground from "../components/ParticlesBackground"; // importa tu componente
 
-const urbanist = Urbanist({subsets: ["latin"]})
+const urbanist = Urbanist({ subsets: ["latin"] });
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,7 +30,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${urbanist.className} ${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${urbanist.className} ${geistSans.variable} ${geistMono.variable} antialiased relative`}
+      >
+        {/* Fondo de partículas en toda la pantalla */}
+        <ParticlesBackground />
+
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

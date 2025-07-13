@@ -73,35 +73,34 @@ export const dataSlider = [
 
 // ✅ PORTFOLIO PROJECTS
 export const dataPortfolio = [
-  {
+ {
     id: 1,
     title: "E-commerce Platform",
     image: "/image-1.jpg",
     urlGithub: "https://github.com/Steven0319/E-commerce.git",
+    urlDemo: "https://e-commerce-stevenapp.netlify.app/",
   },
   {
     id: 2,
-    title: "Plant-Shop",
+    title: "Portfolio Page",
     image: "/image-2.jpg",
-    urlGithub: "https://github.com/Steven0319/Plant-Shop.git",
+    urlGithub: "https://github.com/Steven0319/Portfolio.git",
+    urlDemo: "https://portfolio-steven.netlify.app",
   },
-  {
-    id: 3,
-    title: "Weather App",
-    image: "/image-3.jpg",
-    urlGithub: "https://github.com/Steven0319/WeatherApp.git",
-  },
+  
   {
     id: 4,
     title: "Weather App Interactive",
     image: "/image-4.jpg",
     urlGithub: "https://github.com/Steven0319/Weather-APP.git",
+    urlDemo: "https://weatherapp-stevenapp.netlify.app/",
   },
   {
     id: 5,
-    title: "My Store",
+    title: "Store Platform",
     image: "/image-5.jpg",
     urlGithub: "https://github.com/Steven0319/My-first-store.git",
+    urlDemo: "https://stevenstore.netlify.app/",
   },
   {
     id: 6,
@@ -114,18 +113,21 @@ export const dataPortfolio = [
     title: "Banking Page",
     image: "/image-7.jpg",
     urlGithub: "https://github.com/Steven0319/Landing-Page-Banking.git",
+    urlDemo: "https://steven-bank.netlify.app/",
   },
   {
     id: 8,
     title: "Real Estate Page",
     image: "/image-8.jpg",
     urlGithub: "https://github.com/Steven0319/Real-Estate-Page.git",
+    urlDemo: "https://stevenrealestate.netlify.app/",
   },
   {
     id: 9,
     title: "Web-Responsive",
     image: "/image-9.jpg",
     urlGithub: "https://github.com/Steven0319/Web-Responsive.git",
+    urlDemo: "https://steventech.netlify.app/",
   },
 ];
 
@@ -182,8 +184,9 @@ export const dataContact = [
     id: 1,
     title: "Phone",
     subtitle: "+506 8793 3283",
-    link: "tel:+87933283",
+    link: "tel:+50687933283",
     icon: <Phone />,
+    cta: "Call me",
   },
   {
     id: 2,
@@ -191,6 +194,7 @@ export const dataContact = [
     subtitle: "github.com/Steven0319",
     link: "https://github.com/Steven0319",
     icon: <Code2 />,
+    cta: "Go to site",
   },
   {
     id: 3,
@@ -198,5 +202,6 @@ export const dataContact = [
     subtitle: "stevencg.0319@gmail.com",
     link: "mailto:stevencg.0319@gmail.com",
     icon: <Inbox />,
+    cta: "Send a message",
   },
 ];
