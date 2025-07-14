@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { Instagram, Linkedin, Github } from "lucide-react"
-import Link from "next/link"
+import { Instagram, Linkedin, Github } from "lucide-react";
+import Link from "next/link";
 
 const SocialIcons = () => {
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-3">
+    <div className="fixed bottom-6 right-4 md:right-6 z-50 flex flex-col items-center gap-3">
       <Link
         href="https://www.instagram.com/im.st3v3n/profilecard/?igsh=MXZ1NWNuZ2huc3hqNw=="
         target="_blank"
@@ -31,7 +31,7 @@ const SocialIcons = () => {
         <Github className="text-white w-5 h-5" />
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default SocialIcons
+export default SocialIcons;
