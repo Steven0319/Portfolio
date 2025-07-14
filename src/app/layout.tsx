@@ -4,6 +4,7 @@ import "./globals.css";
 import { Urbanist } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import ParticlesBackground from "../components/ParticlesBackground"; // importa tu componente
+import SocialIcons from "@/components/SocialIcons";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -43,6 +44,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <SocialIcons/>
         </ThemeProvider>
       </body>
     </html>

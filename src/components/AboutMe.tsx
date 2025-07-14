@@ -63,20 +63,22 @@ const AboutMe = () => {
           </div>
 
           <p className="my-8">
-            I'm a passionate developer who finds deep inspiration in lines of
-            code and challenging algorithms. When I'm not coding, I enjoy being
+            I am a passionate developer who finds deep inspiration in lines of
+            code and challenging algorithms. When I am not coding, I enjoy being
             outdoors and practicing sports, believing in the importance of
-            keeping both mind and body in balance. I'm also an avid reader,
+            keeping both mind and body in balance. I am also an avid reader,
             constantly seeking knowledge and personal growth through books. On
             social media, I love sharing my passion for programming by creating
             inspiring and educational content to connect with fellow tech
             enthusiasts.
           </p>
 
-          <Button>
-            <Phone size={20} className="mr-2" />
-            Let’s talk
-          </Button>
+          <a href="tel:+50687933283">
+            <Button>
+              <Phone size={20} className="mr-2" />
+              Let’s talk
+            </Button>
+          </a>
         </div>
       </div>
     </div>
