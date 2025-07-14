@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Urbanist } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import ParticlesBackground from "../components/ParticlesBackground"; // importa tu componente
+import ParticlesBackground from "../components/ParticlesBackground"; 
 import SocialIcons from "@/components/SocialIcons";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
@@ -43,8 +43,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
           <SocialIcons/>
+          {children}
         </ThemeProvider>
       </body>
     </html>

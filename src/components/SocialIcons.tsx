@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const SocialIcons = () => {
   return (
-    <div className="fixed top-4 right-4 z-50 flex gap-3">
+    <div className="flex justify-end gap-3 p-4">
       <Link
         href="https://www.instagram.com/im.st3v3n/profilecard/?igsh=MXZ1NWNuZ2huc3hqNw=="
         target="_blank"
