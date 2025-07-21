@@ -17,7 +17,9 @@ const Contact = () => {
             >
               {data.icon}
               <p className="font-semibold">{data.title}</p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">{data.subtitle}</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                {data.subtitle}
+              </p>
               <Link
                 href={data.link}
                 target="_blank"
