@@ -73,7 +73,7 @@ export const dataSlider = [
 
 // ✅ PORTFOLIO PROJECTS
 export const dataPortfolio = [
- {
+  {
     id: 1,
     title: "E-commerce Platform",
     image: "/image-1.jpg",
@@ -87,7 +87,7 @@ export const dataPortfolio = [
     urlGithub: "https://github.com/Steven0319/Portfolio.git",
     urlDemo: "https://portfolio-steven.netlify.app",
   },
-  
+
   {
     id: 4,
     title: "Weather App Interactive",
@@ -129,6 +129,13 @@ export const dataPortfolio = [
     image: "/image-9.jpg",
     urlGithub: "https://github.com/Steven0319/Web-Responsive.git",
     urlDemo: "https://steventech.netlify.app/",
+  },
+  {
+    id: 10,
+    title: "Dashboard",
+    image: "/image-10.jpg",
+    urlGithub: "https://github.com/Steven0319/Dashboard.git",
+    urlDemo: "https://dashboard-zeta-blue.vercel.app/",
   },
 ];
 
