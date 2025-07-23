@@ -104,7 +104,7 @@ export const dataPortfolio = [
   },
   {
     id: 6,
-    title: "Password Manager",
+    title: "Construction Website",
     image: "/image-6.jpg",
     urlGithub: "https://github.com/Steven0319/construction-website.git",
     urlDemo: "https://construction-website-silk.vercel.app/",
